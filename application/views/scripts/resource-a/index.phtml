@@ -1,0 +1,20 @@
+<br /><br />
+<div id="view-content">
+    <table>
+        <tr>
+            <th>#id</th>
+            <th>name</th>
+            <th></th>
+        </tr>
+    <?php
+        foreach($this->resources as $resource) {
+    ?>   
+        <tr>
+            <td><?php echo $resource->id?></td>
+            <td><?php echo $resource->name?></td>
+            <td></td>
+        </tr>
+    <?php
+        }
+    ?>
+</div>
