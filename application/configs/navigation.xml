@@ -11,13 +11,13 @@
                     <label>Resource A</label>
                     <controller>resourceA</controller>
                     <action>index</action>
-                    <resource>A</resource>
+                    <resource>As</resource>
                 </resourceA>
                 <resourceB>
                     <label>Resource B</label>
                     <controller>resourceB</controller>
                     <action>index</action>
-                    <resource>B</resource>
+                    <resource>Bs</resource>
                 </resourceB>
             </pages>  
             

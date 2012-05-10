@@ -33,7 +33,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 	 * used for handling top-level navigation
 	 * @return Zend_Navigation
 	 */
-	protected function _initNavigation()
+	/*protected function _initNavigation()
 	{
   		$this->bootstrap('layout');
         $layout = $this->getResource('layout');
@@ -45,6 +45,6 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 		$view->navigation($container);
 		
 
-	}	
+	}*/	
 }
 
