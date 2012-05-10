@@ -4,10 +4,10 @@ class Application_Model_ResourceA implements Zend_Acl_Resource_Interface
 {
     public $id;    
     public $name;
-    public $type;
+    public $type = "A";
     
     public function getResourceId() {
-        return $id;
+        return $this->type;
     }
     
     

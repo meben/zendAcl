@@ -38,9 +38,9 @@ class UserController extends Zend_Controller_Action
         $result = $auth->authenticate($adapter);
         if ($result->isValid()) {
             $user = $this->_getUser($adapter);
-            Zend_Registry::get('log')->debug(var_export($user,true));
-            $auth->getStorage()->write($user);
-            $this->_loadAcl();
+            $user->acl = $this->_loadAcl();
+            Zend_Registry::get('log')->debug(var_export($user,true));            
+            $auth->getStorage()->write($user);            
             return true;
         }
         return false;
@@ -76,13 +76,16 @@ class UserController extends Zend_Controller_Action
         $acl = new Zend_Acl();
  
         $acl->addRole(new Zend_Acl_Role('admin'));
+        
+        $acl->add(new Zend_Acl_Resource('As'));
+        $acl->add(new Zend_Acl_Resource('Bs'));
         $acl->add(new Zend_Acl_Resource('A'));
-        $acl->add(new Zend_Acl_Resource('B'));
+                
+        $acl->allow('admin', 'As');
+        $acl->allow('admin', 'Bs');
+        $acl->allow('admin', 'A','delete');
         
-        $acl->allow('admin', 'A');
-        $acl->deny('admin', 'B');
-        
-        Zend_Registry::set('acl',$acl);
+        return $acl;
     }
 }
 

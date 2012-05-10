@@ -12,7 +12,25 @@
         <tr>
             <td><?php echo $resource->id?></td>
             <td><?php echo $resource->name?></td>
-            <td></td>
+            <td>
+               <?php 
+               if(Zend_Auth::getInstance()
+                       ->getIdentity()
+                       ->acl
+                       ->isAllowed(Zend_Auth::getInstance()
+                                    ->getIdentity()
+                                    ->role, $resource, 'edit')) {?>
+               <a href="#">Edit</a>
+               <?php }?>
+               <?php 
+               if(Zend_Auth::getInstance()
+                       ->getIdentity()
+                       ->acl
+                       ->isAllowed(Zend_Auth::getInstance()
+                                    ->getIdentity()
+                                    ->role, $resource, 'delete')) {?>
+               <a href="#">Delete</a>
+               <?php }?>
         </tr>
     <?php
         }
