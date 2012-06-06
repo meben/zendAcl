@@ -7,6 +7,8 @@
             <th></th>
         </tr>
     <?php
+        $session = new Zend_Session_Namespace('zend');
+        
         foreach($this->resources as $resource) {
     ?>   
         <tr>
@@ -14,21 +16,15 @@
             <td><?php echo $resource->name?></td>
             <td>
                <?php 
-               if(Zend_Auth::getInstance()
-                       ->getIdentity()
-                       ->acl
+               if($session->acl
                        ->isAllowed(Zend_Auth::getInstance()
-                                    ->getIdentity()
-                                    ->role, $resource, 'edit')) {?>
+                                    ->getIdentity(), $resource, 'edit')) {?>
                <a href="#">Edit</a>
                <?php }?>
                <?php 
-               if(Zend_Auth::getInstance()
-                       ->getIdentity()
-                       ->acl
+               if($session->acl
                        ->isAllowed(Zend_Auth::getInstance()
-                                    ->getIdentity()
-                                    ->role, $resource, 'delete')) {?>
+                                    ->getIdentity(), $resource, 'delete')) {?>
                <a href="#">Delete</a>
                <?php }?>
         </tr>

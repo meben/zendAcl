@@ -1,712 +1,126 @@
-2012-05-07T13:57:19+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:20+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:22+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:23+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:25+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:26+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:30+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:31+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:32+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:34+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:35+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:36+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:38+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:38+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:39+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:40+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:41+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:42+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:43+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:44+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:57:45+02:00 INFO (6): UserController::loginAction
-2012-05-07T13:58:16+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:00:31+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:00:41+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:00:42+02:00 INFO (6): UserController::_process
-2012-05-07T14:00:44+02:00 DEBUG (7): stdClass::__set_state(array(
+2012-06-06T11:53:25+02:00 INFO (6): 
+2012-06-06T11:53:25+02:00 INFO (6): 1
+2012-06-06T11:53:25+02:00 INFO (6): edit
+2012-06-06T11:53:25+02:00 INFO (6): here2
+2012-06-06T11:53:25+02:00 INFO (6): here4
+2012-06-06T11:53:25+02:00 INFO (6): 
+2012-06-06T11:53:25+02:00 INFO (6): 1
+2012-06-06T11:53:25+02:00 INFO (6): delete
+2012-06-06T11:53:25+02:00 INFO (6): here2
+2012-06-06T11:53:25+02:00 INFO (6): here4
+2012-06-06T11:53:25+02:00 INFO (6): 
+2012-06-06T11:53:25+02:00 INFO (6): 2
+2012-06-06T11:53:25+02:00 INFO (6): edit
+2012-06-06T11:53:25+02:00 INFO (6): here2
+2012-06-06T11:53:25+02:00 INFO (6): here4
+2012-06-06T11:53:25+02:00 INFO (6): 
+2012-06-06T11:53:25+02:00 INFO (6): 2
+2012-06-06T11:53:25+02:00 INFO (6): delete
+2012-06-06T11:53:25+02:00 INFO (6): here2
+2012-06-06T11:53:25+02:00 INFO (6): here4
+2012-06-06T11:53:25+02:00 INFO (6): 
+2012-06-06T11:53:25+02:00 INFO (6): 3
+2012-06-06T11:53:25+02:00 INFO (6): edit
+2012-06-06T11:53:25+02:00 INFO (6): here2
+2012-06-06T11:53:25+02:00 INFO (6): here4
+2012-06-06T11:53:26+02:00 INFO (6): 
+2012-06-06T11:53:26+02:00 INFO (6): 3
+2012-06-06T11:53:26+02:00 INFO (6): delete
+2012-06-06T11:53:26+02:00 INFO (6): here2
+2012-06-06T11:53:26+02:00 INFO (6): here4
+2012-06-06T11:53:26+02:00 INFO (6): 
+2012-06-06T11:53:26+02:00 INFO (6): 4
+2012-06-06T11:53:26+02:00 INFO (6): edit
+2012-06-06T11:53:26+02:00 INFO (6): here2
+2012-06-06T11:53:26+02:00 INFO (6): here4
+2012-06-06T11:53:26+02:00 INFO (6): 
+2012-06-06T11:53:26+02:00 INFO (6): 4
+2012-06-06T11:53:26+02:00 INFO (6): delete
+2012-06-06T11:53:26+02:00 INFO (6): here2
+2012-06-06T11:53:26+02:00 INFO (6): here4
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): edit
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here3
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): delete
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here3
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 2
+2012-06-06T11:55:08+02:00 INFO (6): edit
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here4
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 2
+2012-06-06T11:55:08+02:00 INFO (6): delete
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here4
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 3
+2012-06-06T11:55:08+02:00 INFO (6): edit
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here3
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 3
+2012-06-06T11:55:08+02:00 INFO (6): delete
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here3
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 4
+2012-06-06T11:55:08+02:00 INFO (6): edit
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here4
+2012-06-06T11:55:08+02:00 INFO (6): 1
+2012-06-06T11:55:08+02:00 INFO (6): 4
+2012-06-06T11:55:08+02:00 INFO (6): delete
+2012-06-06T11:55:08+02:00 INFO (6): here2
+2012-06-06T11:55:08+02:00 INFO (6): here4
+2012-06-06T11:55:33+02:00 INFO (6): UserController::loginAction
+2012-06-06T11:55:40+02:00 INFO (6): UserController::loginAction
+2012-06-06T11:55:40+02:00 INFO (6): Application_Service_User::isValid
+2012-06-06T11:55:40+02:00 DEBUG (7): Application_Model_User::__set_state(array(
    'id' => '1',
+   'email' => 'admin@testzend.com',
    'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
+   'roleid' => '1',
 ))
-2012-05-07T14:00:45+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:00:45+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-))
-2012-05-07T14:05:47+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:05:47+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-))
-2012-05-07T14:05:54+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:06:01+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:06:01+02:00 INFO (6): UserController::_process
-2012-05-07T14:06:01+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-))
-2012-05-07T14:06:02+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:06:02+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-))
-2012-05-07T14:12:38+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:12:58+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:12:58+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:26:37+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:32:30+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:39:45+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:40:58+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:41:06+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:41:13+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:41:22+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:41:22+02:00 INFO (6): UserController::_process
-2012-05-07T14:41:23+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-))
-2012-05-07T14:41:26+02:00 INFO (6): IndexController::indexAction
-2012-05-07T14:45:49+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:46:01+02:00 INFO (6): UserController::loginAction
-2012-05-07T14:46:01+02:00 INFO (6): UserController::_process
-2012-05-07T14:46:01+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-))
-2012-05-07T14:46:01+02:00 INFO (6): IndexController::indexAction
-2012-05-07T15:14:05+02:00 INFO (6): IndexController::indexAction
-2012-05-07T15:14:09+02:00 INFO (6): IndexController::indexAction
-2012-05-07T15:14:12+02:00 INFO (6): UserController::loginAction
-2012-05-07T15:14:15+02:00 INFO (6): UserController::loginAction
-2012-05-07T15:14:16+02:00 INFO (6): UserController::_process
-2012-05-07T15:14:19+02:00 INFO (6): UserController::loginAction
-2012-05-07T15:14:19+02:00 INFO (6): UserController::_process
-2012-05-07T15:14:43+02:00 INFO (6): UserController::loginAction
-2012-05-07T15:14:43+02:00 INFO (6): UserController::_process
-2012-05-07T15:14:43+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-))
-2012-05-07T15:16:21+02:00 INFO (6): UserController::loginAction
-2012-05-07T15:16:21+02:00 INFO (6): UserController::_process
-2012-05-07T15:16:21+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-))
-2012-05-07T15:16:22+02:00 INFO (6): IndexController::indexAction
-2012-05-07T15:16:29+02:00 INFO (6): UserController::loginAction
-2012-05-07T15:16:36+02:00 INFO (6): UserController::loginAction
-2012-05-07T15:16:36+02:00 INFO (6): UserController::_process
-2012-05-07T15:16:36+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-))
-2012-05-07T15:16:37+02:00 INFO (6): IndexController::indexAction
-2012-05-08T07:44:18+02:00 INFO (6): UserController::loginAction
-2012-05-08T09:03:26+02:00 INFO (6): UserController::loginAction
-2012-05-08T09:03:31+02:00 INFO (6): UserController::loginAction
-2012-05-08T09:03:31+02:00 INFO (6): UserController::_process
-2012-05-08T09:03:33+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-))
-2012-05-08T09:07:42+02:00 INFO (6): IndexController::indexAction
-2012-05-08T09:07:50+02:00 INFO (6): UserController::loginAction
-2012-05-08T09:08:00+02:00 INFO (6): UserController::loginAction
-2012-05-08T09:08:00+02:00 INFO (6): UserController::_process
-2012-05-08T09:08:00+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-   'acl' => 
-  Zend_Acl::__set_state(array(
-     '_roleRegistry' => 
-    Zend_Acl_Role_Registry::__set_state(array(
-       '_roles' => 
-      array (
-        'admin' => 
-        array (
-          'instance' => 
-          Zend_Acl_Role::__set_state(array(
-             '_roleId' => 'admin',
-          )),
-          'parents' => 
-          array (
-          ),
-          'children' => 
-          array (
-          ),
-        ),
-      ),
-    )),
-     '_resources' => 
-    array (
-      'A' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'A',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-      'B' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'B',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-    ),
-     '_isAllowedRole' => NULL,
-     '_isAllowedResource' => NULL,
-     '_isAllowedPrivilege' => NULL,
-     '_rules' => 
-    array (
-      'allResources' => 
-      array (
-        'allRoles' => 
-        array (
-          'allPrivileges' => 
-          array (
-            'type' => 'TYPE_DENY',
-            'assert' => NULL,
-          ),
-          'byPrivilegeId' => 
-          array (
-          ),
-        ),
-        'byRoleId' => 
-        array (
-        ),
-      ),
-      'byResourceId' => 
-      array (
-        'A' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_ALLOW',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-        'B' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_DENY',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-      ),
-    ),
-  )),
-))
-2012-05-08T09:08:01+02:00 INFO (6): IndexController::indexAction
-2012-05-08T09:57:11+02:00 INFO (6): IndexController::indexAction
-2012-05-08T09:57:12+02:00 INFO (6): UserController::loginAction
-2012-05-08T09:57:23+02:00 INFO (6): UserController::loginAction
-2012-05-08T09:57:24+02:00 INFO (6): UserController::_process
-2012-05-08T09:57:24+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-   'acl' => 
-  Zend_Acl::__set_state(array(
-     '_roleRegistry' => 
-    Zend_Acl_Role_Registry::__set_state(array(
-       '_roles' => 
-      array (
-        'admin' => 
-        array (
-          'instance' => 
-          Zend_Acl_Role::__set_state(array(
-             '_roleId' => 'admin',
-          )),
-          'parents' => 
-          array (
-          ),
-          'children' => 
-          array (
-          ),
-        ),
-      ),
-    )),
-     '_resources' => 
-    array (
-      'A' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'A',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-      'B' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'B',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-    ),
-     '_isAllowedRole' => NULL,
-     '_isAllowedResource' => NULL,
-     '_isAllowedPrivilege' => NULL,
-     '_rules' => 
-    array (
-      'allResources' => 
-      array (
-        'allRoles' => 
-        array (
-          'allPrivileges' => 
-          array (
-            'type' => 'TYPE_DENY',
-            'assert' => NULL,
-          ),
-          'byPrivilegeId' => 
-          array (
-          ),
-        ),
-        'byRoleId' => 
-        array (
-        ),
-      ),
-      'byResourceId' => 
-      array (
-        'A' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_ALLOW',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-        'B' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_ALLOW',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-      ),
-    ),
-  )),
-))
-2012-05-08T09:57:25+02:00 INFO (6): IndexController::indexAction
-2012-05-08T10:09:12+02:00 INFO (6): IndexController::indexAction
-2012-05-08T10:10:36+02:00 INFO (6): IndexController::indexAction
-2012-05-08T10:10:44+02:00 INFO (6): IndexController::indexAction
-2012-05-08T10:10:49+02:00 INFO (6): UserController::loginAction
-2012-05-08T10:11:42+02:00 INFO (6): UserController::loginAction
-2012-05-08T10:11:42+02:00 INFO (6): UserController::_process
-2012-05-08T10:34:00+02:00 INFO (6): UserController::loginAction
-2012-05-08T10:34:07+02:00 INFO (6): UserController::_process
-2012-05-08T10:34:10+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-   'acl' => 
-  Zend_Acl::__set_state(array(
-     '_roleRegistry' => 
-    Zend_Acl_Role_Registry::__set_state(array(
-       '_roles' => 
-      array (
-        'admin' => 
-        array (
-          'instance' => 
-          Zend_Acl_Role::__set_state(array(
-             '_roleId' => 'admin',
-          )),
-          'parents' => 
-          array (
-          ),
-          'children' => 
-          array (
-          ),
-        ),
-      ),
-    )),
-     '_resources' => 
-    array (
-      'As' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'As',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-      'Bs' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'Bs',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-      'A' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'A',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-    ),
-     '_isAllowedRole' => NULL,
-     '_isAllowedResource' => NULL,
-     '_isAllowedPrivilege' => NULL,
-     '_rules' => 
-    array (
-      'allResources' => 
-      array (
-        'allRoles' => 
-        array (
-          'allPrivileges' => 
-          array (
-            'type' => 'TYPE_DENY',
-            'assert' => NULL,
-          ),
-          'byPrivilegeId' => 
-          array (
-          ),
-        ),
-        'byRoleId' => 
-        array (
-        ),
-      ),
-      'byResourceId' => 
-      array (
-        'As' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_ALLOW',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-        'Bs' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_ALLOW',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-        'A' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-                'edit' => 
-                array (
-                  'type' => 'TYPE_ALLOW',
-                  'assert' => NULL,
-                ),
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => NULL,
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-      ),
-    ),
-  )),
-))
-2012-05-08T10:34:37+02:00 INFO (6): IndexController::indexAction
-2012-05-08T10:37:13+02:00 INFO (6): UserController::loginAction
-2012-05-08T10:37:24+02:00 INFO (6): UserController::loginAction
-2012-05-08T10:37:24+02:00 INFO (6): UserController::_process
-2012-05-08T10:37:24+02:00 DEBUG (7): stdClass::__set_state(array(
-   'id' => '1',
-   'name' => 'admin',
-   'password' => 'cb3aefbdffbc81588f3d43c394428b16d4346b44',
-   'salt' => 'ce8d96d579d389e783f95b3772785783ea1a9854',
-   'creation_date' => '2012-04-01 00:00:00',
-   'created_by' => '1',
-   'role' => 'admin',
-   'acl' => 
-  Zend_Acl::__set_state(array(
-     '_roleRegistry' => 
-    Zend_Acl_Role_Registry::__set_state(array(
-       '_roles' => 
-      array (
-        'admin' => 
-        array (
-          'instance' => 
-          Zend_Acl_Role::__set_state(array(
-             '_roleId' => 'admin',
-          )),
-          'parents' => 
-          array (
-          ),
-          'children' => 
-          array (
-          ),
-        ),
-      ),
-    )),
-     '_resources' => 
-    array (
-      'As' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'As',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-      'Bs' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'Bs',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-      'A' => 
-      array (
-        'instance' => 
-        Zend_Acl_Resource::__set_state(array(
-           '_resourceId' => 'A',
-        )),
-        'parent' => NULL,
-        'children' => 
-        array (
-        ),
-      ),
-    ),
-     '_isAllowedRole' => NULL,
-     '_isAllowedResource' => NULL,
-     '_isAllowedPrivilege' => NULL,
-     '_rules' => 
-    array (
-      'allResources' => 
-      array (
-        'allRoles' => 
-        array (
-          'allPrivileges' => 
-          array (
-            'type' => 'TYPE_DENY',
-            'assert' => NULL,
-          ),
-          'byPrivilegeId' => 
-          array (
-          ),
-        ),
-        'byRoleId' => 
-        array (
-        ),
-      ),
-      'byResourceId' => 
-      array (
-        'As' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_ALLOW',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-        'Bs' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => 'TYPE_ALLOW',
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-        'A' => 
-        array (
-          'byRoleId' => 
-          array (
-            'admin' => 
-            array (
-              'byPrivilegeId' => 
-              array (
-                'delete' => 
-                array (
-                  'type' => 'TYPE_ALLOW',
-                  'assert' => NULL,
-                ),
-              ),
-              'allPrivileges' => 
-              array (
-                'type' => NULL,
-                'assert' => NULL,
-              ),
-            ),
-          ),
-        ),
-      ),
-    ),
-  )),
-))
-2012-05-08T10:37:26+02:00 INFO (6): IndexController::indexAction
+2012-06-06T11:55:41+02:00 INFO (6): IndexController::indexAction
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): edit
+2012-06-06T11:55:44+02:00 INFO (6): here
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): delete
+2012-06-06T11:55:44+02:00 INFO (6): here2
+2012-06-06T11:55:44+02:00 INFO (6): here3
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 2
+2012-06-06T11:55:44+02:00 INFO (6): edit
+2012-06-06T11:55:44+02:00 INFO (6): here
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 2
+2012-06-06T11:55:44+02:00 INFO (6): delete
+2012-06-06T11:55:44+02:00 INFO (6): here2
+2012-06-06T11:55:44+02:00 INFO (6): here4
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 3
+2012-06-06T11:55:44+02:00 INFO (6): edit
+2012-06-06T11:55:44+02:00 INFO (6): here
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 3
+2012-06-06T11:55:44+02:00 INFO (6): delete
+2012-06-06T11:55:44+02:00 INFO (6): here2
+2012-06-06T11:55:44+02:00 INFO (6): here3
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 4
+2012-06-06T11:55:44+02:00 INFO (6): edit
+2012-06-06T11:55:44+02:00 INFO (6): here
+2012-06-06T11:55:44+02:00 INFO (6): 1
+2012-06-06T11:55:44+02:00 INFO (6): 4
+2012-06-06T11:55:44+02:00 INFO (6): delete
+2012-06-06T11:55:44+02:00 INFO (6): here2
+2012-06-06T11:55:44+02:00 INFO (6): here4
