@@ -1,16 +1,11 @@
 <?php
 
-class Application_Model_ResourceA implements Zend_Acl_Resource_Interface
+class Application_Model_ResourceA extends App_Model_Abstract
 {
-    public $id;    
-    public $name;
-    public $type = "A";
-    public $created_by;
+    protected $_modelType = "A";    
     
-    public function getResourceId() {
-        return $this->type;
+    protected function _getModelType() {
+        return $this->_modelType;
     }
-    
-    
 }
 

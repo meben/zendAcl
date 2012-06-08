@@ -15,13 +15,5 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap {
         $view->doctype('XHTML1_STRICT');
         $view->headMeta()->appendHttpEquiv('Content-Type', 'text/html;charset=utf-8');
     }
-
-    protected function _initAutoLoader() {
-        
-        $this->_resourceLoader = new Zend_Application_Module_Autoloader(array(
-            'namespace' => 'Application',
-            'basePath'  => APPLICATION_PATH 
-        ));
-    }
 }
 

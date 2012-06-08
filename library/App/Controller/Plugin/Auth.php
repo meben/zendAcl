@@ -16,16 +16,13 @@ class App_Controller_Plugin_Auth extends Zend_Controller_Plugin_Abstract {
             $layout = Zend_Layout::getMvcInstance();
             $view = $layout->getView();
 
-            $role = Zend_Auth::getInstance()->getIdentity()->roleid;
-            
             $session = new Zend_Session_Namespace('zend');
             $acl = $session->acl;
             
-            $view->navigation($container)->setAcl($acl)->setRole($role);
+            $view->navigation($container)->setAcl($acl)->setRole(Zend_Auth::getInstance()->getIdentity());
         } else {
             $request->setControllerName('user')
-                    ->setActionName('login')
-           ;
+                    ->setActionName('login');
         }
     }
 
