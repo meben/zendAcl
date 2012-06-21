@@ -6,6 +6,8 @@
             .header
             {
                 background: #FFF;
+                float:left;
+                width:100%;
             }
             
             .user
@@ -14,64 +16,25 @@
                 padding-right: 5px;
             }
             
-            .breadcrumbs
-            {
-                background:#EFEFEF;
-                padding-top: 10px;
-                padding-left: 5px;
-            }
             .content 
             {
                 margin: 5px;
             }
-            .topnav
-            {
-                padding: 5px ;
-            }
-
-            .topnav ul , .topnav ul li
-            {
-                display: inline;
-            }		
-            .topnav ul li a
-            {
-                color: #00E;
-                text-decoration: none;
-                border-width: 1px 1px 0px 1px;
-                border-color: #000;
-                border-style: solid;
-                padding: 5px;
-            }
-            .topnav ul li a:hover
-            {
-                background: #CCC;
-            }
+            
             body
             {
                 background: #DDD;
             }
 
         </style>
-
     </head>
-<?php $user = Zend_Auth::getInstance()->getIdentity();?>
     <body>
         <div class="header">
-            <h1>
-                Introduction to Zend_Navigation
-            </h1>
-            <div class="user">
-                Hello <?php echo $user->name;?> | <a href="<?php echo $this->url(array("action"=>logout,"controller"=>user))?>">Logout</a>
-            </div>
-                <div class="topnav">
-                    <?php echo $this->navigation()->menu(); ?>
-                </div>
-                <div class="breadcrumbs">
-                    <?php echo $this->navigation()->breadcrumbs()->setMinDepth(0)->setLinkLast(true)->setSeparator(" : "); ?>
-                </div>
-            </div>
-            <div class="content">
-                <?php echo $this->layout()->content; ?>
-            </div>
+            <h1>Zend Framework Sample Structure</h1>
+            <div class="user"><?php echo $this->render('_auth.phtml') ?></div>
+        </div>
+        <div class="content">
+            <?php echo $this->layout()->content; ?>
+        </div>
     </body>
 </html>

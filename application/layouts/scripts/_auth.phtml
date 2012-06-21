@@ -1,0 +1,15 @@
+<?php
+ $auth = Zend_Auth::getInstance();
+
+ if ($auth->hasIdentity()) {
+?>
+Hello <?php echo $auth->getIdentity()->name ?> | <a href="<?php echo $this->url(array("action"=>"logout",
+                                     "controller"=>"user"));?>">Logout</a>
+<?php }
+  else {
+?>
+<a href="<?php echo $this->url(array("action"=>"login",
+                                     "controller"=>"user"));?>">Login</a>
+<?php
+  }
+?>

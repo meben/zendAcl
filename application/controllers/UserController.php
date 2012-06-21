@@ -16,9 +16,10 @@ class UserController extends Zend_Controller_Action
         $request = $this->getRequest();
         if ($request->isPost()) {
             if ($form->isValid($request->getPost())) {
-                if(Application_Service_User::isValid($form->getValues())) {
+                $userService = new Application_Service_User();
+                if($userService->isValid($form->getValues())) {
                     // We're authenticated! Redirect to the home page
-                    $this->_helper->redirector('index', 'index');
+                    $this->_helper->redirector('index', 'index','admin');
                 }
             }
         }

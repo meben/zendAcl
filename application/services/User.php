@@ -4,29 +4,29 @@
  *
  * @author Nandini
  */
-class Application_Service_User {
+class Application_Service_User extends App_Service_Abstract {
     
-     public static function isValid($values) {
-         Zend_Registry::get('log')->info(__METHOD__);
+     public function isValid($values) {
+        Zend_Registry::get('log')->info(__METHOD__);
             
         // Get our authentication adapter and check credentials
-        $adapter = self::_getAuthAdapter();
+        $adapter = $this->_getAuthAdapter();
         $adapter->setIdentity($values['username']); 
         $adapter->setCredential($values['password']);
 
         $auth = Zend_Auth::getInstance();
         $result = $auth->authenticate($adapter);
         if ($result->isValid()) {
-            $user = self::_getUser($adapter);
+            $user = $this->_getUser($adapter);
             Zend_Registry::get('log')->debug(var_export($user,true));            
             $auth->getStorage()->write($user);
-            self::_loadAcl();
+            $this->_loadAcl();
             return true;
         }
         return false;
      }
      
-     protected static function _getAuthAdapter() {
+     protected function _getAuthAdapter() {
         
         $dbAdapter = Zend_Db_Table::getDefaultAdapter();
         $authAdapter = new Zend_Auth_Adapter_DbTable($dbAdapter);
@@ -40,13 +40,13 @@ class Application_Service_User {
         return $authAdapter;
     }
     
-    protected static function _getUser($adapter) {
+    protected function _getUser($adapter) {
         $user = $adapter->getResultRowObject();        
         $user = new Application_Model_User($user);
         return $user;
     }
     
-    protected static function _loadAcl() {
+    protected function _loadAcl() {
         $acl = new Zend_Acl();
  
         $acl->addRole(new Zend_Acl_Role(1));
@@ -66,6 +66,13 @@ class Application_Service_User {
         $session = new Zend_Session_Namespace('zend');
         
         $session->acl = $acl;
+    }
+
+    public function getMapper() {
+        if (null === $this->_mapper) {
+            $this->setMapper('Application_Model_Mapper_Db_User');
+        }
+        return $this->_dbTable;
     }
 }
 

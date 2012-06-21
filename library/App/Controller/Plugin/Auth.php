@@ -3,12 +3,18 @@
 class App_Controller_Plugin_Auth extends Zend_Controller_Plugin_Abstract {
 
     public function preDispatch(Zend_Controller_Request_Abstract $request) {
-        if ($request->getControllerName() == 'user' && $request->getControllerName() == 'error')
+        
+        Zend_Registry::get('log')->info(__METHOD__);
+        
+        Zend_Registry::get('log')->info($request->getModuleName());
+        if ($request->getModuleName() != 'admin' ||
+                $request->getControllerName() == 'error') {
+            
             return;
-
-        $auth = Zend_Auth::getInstance();
-
-        if ($auth->hasIdentity()) {
+        }
+        
+        if (Zend_Auth::getInstance()->hasIdentity()) {
+            Zend_Registry::get('log')->info('here');
             $config = new Zend_Config_Xml(APPLICATION_PATH . '/configs/navigation.xml', 'nav');
             $container = new Zend_Navigation($config);
             
@@ -21,7 +27,8 @@ class App_Controller_Plugin_Auth extends Zend_Controller_Plugin_Abstract {
             
             $view->navigation($container)->setAcl($acl)->setRole(Zend_Auth::getInstance()->getIdentity());
         } else {
-            $request->setControllerName('user')
+            $request->setModuleName('default')
+                    ->setControllerName('user')
                     ->setActionName('login');
         }
     }

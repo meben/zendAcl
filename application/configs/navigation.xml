@@ -9,12 +9,14 @@
             <pages>
                 <resourceA>
                     <label>Resource A</label>
+                    <module>admin</module>
                     <controller>resource-a</controller>
                     <action>index</action>
                     <resource>As</resource>
                 </resourceA>
                 <resourceB>
                     <label>Resource B</label>
+                    <module>admin</module>
                     <controller>resource-b</controller>
                     <action>index</action>
                     <resource>Bs</resource>

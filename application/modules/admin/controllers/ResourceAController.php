@@ -1,6 +1,6 @@
 <?php
 
-class ResourceAController extends Zend_Controller_Action
+class Admin_ResourceAController extends Zend_Controller_Action
 {
 
     public function init()
