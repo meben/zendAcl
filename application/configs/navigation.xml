@@ -3,6 +3,7 @@
     <nav>
         <home>
             <label>Home</label>
+            <module>admin</module>
             <controller>index</controller>
             <action>index</action>
 

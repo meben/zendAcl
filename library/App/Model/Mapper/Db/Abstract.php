@@ -1,11 +1,11 @@
 <?php
 
-abstract class App_Model_Mapper_Abstract {
+abstract class App_Model_Mapper_Db_Abstract extends App_Model_Mapper_Abstract{
 
     protected $_table;
     protected $_mapper = array();
 
-    abstract protected function _getTable();
+    abstract public function getTable();
     
     public function setTable(Zend_Db_Table_Abstract $table) {
         $this->_table = $table;

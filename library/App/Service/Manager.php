@@ -5,21 +5,18 @@
  *
  * @author Nandini
  */
-abstract class App_Service_Abstract {
-    protected $_mapper;
+abstract class App_Service_Manager {    
     
-    abstract public function getMapper();
-    
-    public function setMapper($mapper) {
-        if (is_string($mapper)) {
-            $mapper = new $mapper();
+    public static function getService($service) {
+        if (is_string($service)) {
+           $service = 'Application_Service_'.ucwords($service);
+           $service = new $service();
         }
-        if (!$mapper instanceof Zend_Db_Table_Abstract) {
-            throw new Exception('Invalid Mapper Provided');
+        if (!$service instanceof App_Service_Abstract) {
+            throw new Exception('Invalid Service Provided');
         }
-        $this->_mapper = $dbTable;
         
-        return $this;
+        return $service;
     }
 }
 ?>

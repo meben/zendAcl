@@ -6,6 +6,7 @@
  * @author Nandini
  */
 abstract class App_Service_Abstract {
+    
     protected $_mapper;
     
     abstract public function getMapper();
@@ -14,10 +15,10 @@ abstract class App_Service_Abstract {
         if (is_string($mapper)) {
             $mapper = new $mapper();
         }
-        if (!$mapper instanceof Zend_Db_Table_Abstract) {
+        if (!$mapper instanceof App_Model_Mapper_Abstract) {
             throw new Exception('Invalid Mapper Provided');
         }
-        $this->_mapper = $dbTable;
+        $this->_mapper = $mapper;
         
         return $this;
     }

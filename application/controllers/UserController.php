@@ -12,13 +12,20 @@ class UserController extends Zend_Controller_Action
     {
         Zend_Registry::get('log')->info(__METHOD__);
         $this->_helper->layout()->disableLayout();
+        
         $form = new Application_Form_Login();
         $request = $this->getRequest();
         if ($request->isPost()) {
             if ($form->isValid($request->getPost())) {
-                $userService = new Application_Service_User();
-                if($userService->isValid($form->getValues())) {
+                $userservice = App_Service_Manager::getService('user');
+                if($user = $userservice->isValid($form->getValues())) {
                     // We're authenticated! Redirect to the home page
+                    Zend_Auth::getInstance()->getStorage()->write($user);
+                    
+                    $acl = $userservice->getACl();
+                    $session = new Zend_Session_Namespace('zend');
+                    $session->acl = $acl;
+                    
                     $this->_helper->redirector('index', 'index','admin');
                 }
             }
