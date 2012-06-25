@@ -32,7 +32,7 @@ class Application_Service_User extends App_Service_Abstract {
         $acl->add(new Zend_Acl_Resource('B'));
 
         $acl->allow(1, 'As');
-        $acl->allow(1, 'Bs');
+        //$acl->allow(1, 'Bs');
         $acl->allow(1, 'A', 'edit', new App_Acl_Assert_ResourceAccess());
         $acl->allow(1, 'A', 'edit:all');
         $acl->allow(1, 'A', 'delete', new App_Acl_Assert_ResourceAccess());

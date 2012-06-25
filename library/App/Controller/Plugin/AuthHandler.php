@@ -1,6 +1,6 @@
 <?php
 
-class App_Controller_Plugin_Auth extends Zend_Controller_Plugin_Abstract {
+class App_Controller_Plugin_AuthHandler extends Zend_Controller_Plugin_Abstract {
 
     public function preDispatch(Zend_Controller_Request_Abstract $request) {
         
@@ -15,7 +15,7 @@ class App_Controller_Plugin_Auth extends Zend_Controller_Plugin_Abstract {
         
         if (Zend_Auth::getInstance()->hasIdentity()) {
             Zend_Registry::get('log')->info('here');
-            $config = new Zend_Config_Xml(APPLICATION_PATH . '/configs/navigation.xml', 'nav');
+            $config = new Zend_Config_Xml(APPLICATION_PATH . '/configs/'.$request->getModuleName().'_navigation.xml', 'nav');
             $container = new Zend_Navigation($config);
             
 

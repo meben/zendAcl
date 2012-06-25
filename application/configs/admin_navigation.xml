@@ -6,7 +6,6 @@
             <module>admin</module>
             <controller>index</controller>
             <action>index</action>
-
             <pages>
                 <resourceA>
                     <label>Resource A</label>
@@ -22,8 +21,7 @@
                     <action>index</action>
                     <resource>Bs</resource>
                 </resourceB>
-            </pages>  
-            
+            </pages>            
         </home>
     </nav>
 </configdata>
