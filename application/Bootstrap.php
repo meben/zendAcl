@@ -18,8 +18,6 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap {
     
     protected function _initDefaultModelAutoloader()
     {
-        $this->_logger->info('Bootstrap ' . __METHOD__);
-        
         $this->_resourceLoader = new Zend_Application_Module_Autoloader(array(
             'namespace' => 'Application',
             'basePath'  => APPLICATION_PATH 
