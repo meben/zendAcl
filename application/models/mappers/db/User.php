@@ -4,7 +4,7 @@
  *
  * @author Nandini
  */
-class Application_Model_Mapper_DB_User extends App_Model_Mapper_Db_Abstract {
+class Application_Model_Mapper_Db_User extends App_Model_Mapper_Db_Abstract {
     
     public function isValid($values) {
         Zend_Registry::get('log')->info(__METHOD__);
